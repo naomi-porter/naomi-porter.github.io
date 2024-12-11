@@ -2,11 +2,11 @@
   "name": "naomi-homepage",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://naomi-porter.github.io",
+  "homepage": "https://naomi-porter.github.io/naomi-porter.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d -dist",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
