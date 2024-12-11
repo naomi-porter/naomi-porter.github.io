@@ -2,7 +2,7 @@
   "name": "naomi-homepage",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://naomi-porter.github.io/naomi-porter.github.io/",
+  "homepage": "https://naomi-porter.github.io",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
