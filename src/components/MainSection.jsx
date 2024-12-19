@@ -6,9 +6,11 @@ import {
   Heading,
   Image,
   SimpleGrid,
-  Button,
+  // Button,
 } from '@chakra-ui/react'
-import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/card'
+// import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/card'
+import logo from '../assets/logowithbackgroundremoved.png'
+
 
 function MainSection() {
   return (
@@ -47,8 +49,8 @@ function MainSection() {
             textAlign="center"
           >
             <Image
-          src="src/assets/logowithbackgroundremoved.png"
-          alt="pair of baby pants"
+          src={logo}
+          alt="a logo for sew far, sew good"
           boxSize="100px"
           mx="auto"
         ></Image>
